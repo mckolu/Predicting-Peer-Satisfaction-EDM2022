@@ -6,11 +6,7 @@
  
 <p>Paper: <a href="http://ld-main-websiteapp.eba-hcpibxny.us-east-2.elasticbeanstalk.com/pdf/LearnDialogue-Ma-EDM-2022.pdf">Link</a></p>
 
-
-
-## Architecture
-<img width="861" alt="model" src="https://user-images.githubusercontent.com/16653776/168483093-785d107b-99bc-4454-9146-9d369b442b50.png">
-
+<p>Authors: Yingbo Ma, Mehmet Celepkolu, Kristy Elizabeth Boyer</p> 
 
 
 <h3>Introduction</h3>
@@ -18,8 +14,11 @@ During collaboration learners’ satisfaction toward their partners plays a cruc
 no research on automatically predicting learners’ satisfaction toward their partners. To fill this gap, this paper investigates the automatic prediction of peer satisfaction by analyzing learners’ interactions during collaborative coding tasks. We extracted three types of features from dialogues: 1) linguistic features indicating semantics; 2) acoustic-prosodic features including energy and pitch; and 3) visual features including eye gaze, head pose, facial behaviors, and body pose. We then trained several regression models to predict the peer satisfaction scores that learners received from their partners. The results revealed that head position and body location were significant indicators of peer satisfaction: lower head and body distances
 between partners were associated with more positive peer satisfaction. This work is the first to investigate the multimodal prediction of peer satisfaction during collaborative problem solving, and represents a step toward the development of real-time intelligent systems that support collaborative learning.
 
-<h3>Authors</h3>
-Yingbo Ma, Mehmet Celepkolu, Kristy Elizabeth Boyer
+## Architecture
+<img width="861" alt="model" src="https://user-images.githubusercontent.com/16653776/168483093-785d107b-99bc-4454-9146-9d369b442b50.png">
+
+
+
 
 
 <h2>Code Structure</h2>
