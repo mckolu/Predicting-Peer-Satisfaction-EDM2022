@@ -1,41 +1,22 @@
 # Predicting Peer Satisfaction
 
-
-<h2>Investigating Multimodal Predictors of Peer Satisfaction for Collaborative Coding in Middle School</h2>
+<h2>Investigating Multimodal Predictors of Peer Satisfaction for Collaborative Coding</h2>
 
 <p>This is the repository for our research paper accepted at the International Conference on Educational Data Mining (EDM'22)</h1>
  
-<p><b>Paper Link: </b><a href="http://ld-main-websiteapp.eba-hcpibxny.us-east-2.elasticbeanstalk.com/pdf/LearnDialogue-Ma-EDM-2022.pdf">Investigating Multimodal Predictors of Peer Satisfaction for Collaborative Coding in Middle School</a></p>
-
-
-<!-- # Running 
-Open a Command Prompt or Terminal in the repository and run the following -->
-
-![alt text](https://github.com/mckolu/DialogViz/blob/main/Picture1.png)
+<p>Paper: <a href="http://ld-main-websiteapp.eba-hcpibxny.us-east-2.elasticbeanstalk.com/pdf/LearnDialogue-Ma-EDM-2022.pdf">Link</a></p>
 
 
 
+## Architecture
+<img width="861" alt="model" src="https://user-images.githubusercontent.com/16653776/168483093-785d107b-99bc-4454-9146-9d369b442b50.png">
 
 
 
 <h3>Introduction</h3>
-Collaborative learning is a complex process during which
-two or more learners exchange opinions, construct shared
-knowledge, and solve problems together. While engaging in
-this interactive process, learners’ satisfaction toward their
-partners plays a crucial role in defining the success of the
-collaboration. If intelligent systems could predict peer satisfaction early during collaboration, they could intervene
-with adaptive support. However, while extensive studies
-have associated peer satisfaction with factors such as social presence, communication, and trustworthiness, there is
-no research on automatically predicting learners’ satisfaction toward their partners. To fill this gap, this paper investigates the automatic prediction of peer satisfaction by
-analyzing 44 middle school learners’ interactions during collaborative coding tasks. We extracted three types of features from dialogues: 1) linguistic features indicating semantics; 2) acoustic-prosodic features including energy and
-pitch; and 3) visual features including eye gaze, head pose,
-facial behaviors, and body pose. We then trained several regression models to predict the peer satisfaction scores that
-learners received from their partners. The results revealed
-that head position and body location were significant indicators of peer satisfaction: lower head and body distances
-between partners were associated with more positive peer
-satisfaction. This work is the first to investigate the multimodal prediction of peer satisfaction during collaborative
-problem solving, and represents a step toward the development of real-time intelligent systems that support collaborative learning.
+During collaboration learners’ satisfaction toward their partners plays a crucial role in defining the success of the collaboration. If intelligent systems could predict peer satisfaction early during collaboration, they could intervene with adaptive support. However, there is
+no research on automatically predicting learners’ satisfaction toward their partners. To fill this gap, this paper investigates the automatic prediction of peer satisfaction by analyzing learners’ interactions during collaborative coding tasks. We extracted three types of features from dialogues: 1) linguistic features indicating semantics; 2) acoustic-prosodic features including energy and pitch; and 3) visual features including eye gaze, head pose, facial behaviors, and body pose. We then trained several regression models to predict the peer satisfaction scores that learners received from their partners. The results revealed that head position and body location were significant indicators of peer satisfaction: lower head and body distances
+between partners were associated with more positive peer satisfaction. This work is the first to investigate the multimodal prediction of peer satisfaction during collaborative problem solving, and represents a step toward the development of real-time intelligent systems that support collaborative learning.
 
 <h3>Authors</h3>
 Yingbo Ma, Mehmet Celepkolu, Kristy Elizabeth Boyer
