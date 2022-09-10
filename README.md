@@ -6,8 +6,11 @@
  
 <p>Paper: <a href="http://ld-main-websiteapp.eba-hcpibxny.us-east-2.elasticbeanstalk.com/pdf/LearnDialogue-Ma-EDM-2022.pdf">Link</a></p>
 
+<!---
+
 <p>Authors: Yingbo Ma, Mehmet Celepkolu, Kristy Elizabeth Boyer</p> 
 
+-->
 
 <h3>Introduction</h3>
 During collaboration learners’ satisfaction toward their partners plays a crucial role in defining the success of the collaboration. If intelligent systems could predict peer satisfaction early during collaboration, they could intervene with adaptive support. However, there is
